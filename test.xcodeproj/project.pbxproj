@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE934EEB1FA5CE99004332FB /* DebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE934EEA1FA5CE99004332FB /* DebugTableViewController.swift */; };
+		CE934EED1FA5CEA7004332FB /* DebugViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE934EEC1FA5CEA7004332FB /* DebugViewController.storyboard */; };
+		CE934EEF1FA5D47A004332FB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE934EEE1FA5D47A004332FB /* Constant.swift */; };
+		CE97171A1FA5F45100889CCC /* DebugScreenInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9717191FA5F45100889CCC /* DebugScreenInfoViewController.swift */; };
+		CE97171C1FA6390D00889CCC /* DebugScreenInfoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97171B1FA6390D00889CCC /* DebugScreenInfoViewController.storyboard */; };
+		CEA2FFAD1FA5DC7D00DE6CF4 /* DebugScreenSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2FFAC1FA5DC7D00DE6CF4 /* DebugScreenSizeViewController.swift */; };
+		CEA2FFAF1FA5DC9A00DE6CF4 /* DebugScreenSizeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA2FFAE1FA5DC9A00DE6CF4 /* DebugScreenSizeViewController.storyboard */; };
+		CEA2FFB11FA5F11A00DE6CF4 /* DebugWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2FFB01FA5F11A00DE6CF4 /* DebugWindow.swift */; };
+		CEA2FFB31FA5F19900DE6CF4 /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2FFB21FA5F19900DE6CF4 /* UIWindowExtension.swift */; };
 		CEC137AA1E85757900F6F06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC137A91E85757900F6F06F /* AppDelegate.swift */; };
 		CEC137AC1E85757900F6F06F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC137AB1E85757900F6F06F /* ViewController.swift */; };
 		CEC137AF1E85757900F6F06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC137AD1E85757900F6F06F /* Main.storyboard */; };
@@ -15,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE934EEA1FA5CE99004332FB /* DebugTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTableViewController.swift; sourceTree = "<group>"; };
+		CE934EEC1FA5CEA7004332FB /* DebugViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DebugViewController.storyboard; sourceTree = "<group>"; };
+		CE934EEE1FA5D47A004332FB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CE9717191FA5F45100889CCC /* DebugScreenInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugScreenInfoViewController.swift; sourceTree = "<group>"; };
+		CE97171B1FA6390D00889CCC /* DebugScreenInfoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DebugScreenInfoViewController.storyboard; sourceTree = "<group>"; };
+		CEA2FFAC1FA5DC7D00DE6CF4 /* DebugScreenSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugScreenSizeViewController.swift; sourceTree = "<group>"; };
+		CEA2FFAE1FA5DC9A00DE6CF4 /* DebugScreenSizeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DebugScreenSizeViewController.storyboard; sourceTree = "<group>"; };
+		CEA2FFB01FA5F11A00DE6CF4 /* DebugWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugWindow.swift; sourceTree = "<group>"; };
+		CEA2FFB21FA5F19900DE6CF4 /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
 		CEC137A61E85757900F6F06F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC137A91E85757900F6F06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC137AB1E85757900F6F06F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				CEC137A91E85757900F6F06F /* AppDelegate.swift */,
+				CE934EEE1FA5D47A004332FB /* Constant.swift */,
 				CEC137AB1E85757900F6F06F /* ViewController.swift */,
+				CEA2FFB01FA5F11A00DE6CF4 /* DebugWindow.swift */,
+				CE934EEA1FA5CE99004332FB /* DebugTableViewController.swift */,
+				CEA2FFB21FA5F19900DE6CF4 /* UIWindowExtension.swift */,
+				CEA2FFAE1FA5DC9A00DE6CF4 /* DebugScreenSizeViewController.storyboard */,
+				CEA2FFAC1FA5DC7D00DE6CF4 /* DebugScreenSizeViewController.swift */,
+				CE9717191FA5F45100889CCC /* DebugScreenInfoViewController.swift */,
+				CE97171B1FA6390D00889CCC /* DebugScreenInfoViewController.storyboard */,
+				CE934EEC1FA5CEA7004332FB /* DebugViewController.storyboard */,
 				CEC137AD1E85757900F6F06F /* Main.storyboard */,
 				CEC137B01E85757900F6F06F /* Assets.xcassets */,
 				CEC137B21E85757900F6F06F /* LaunchScreen.storyboard */,
@@ -126,6 +153,9 @@
 			files = (
 				CEC137B41E85757900F6F06F /* LaunchScreen.storyboard in Resources */,
 				CEC137B11E85757900F6F06F /* Assets.xcassets in Resources */,
+				CEA2FFAF1FA5DC9A00DE6CF4 /* DebugScreenSizeViewController.storyboard in Resources */,
+				CE97171C1FA6390D00889CCC /* DebugScreenInfoViewController.storyboard in Resources */,
+				CE934EED1FA5CEA7004332FB /* DebugViewController.storyboard in Resources */,
 				CEC137AF1E85757900F6F06F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +168,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC137AC1E85757900F6F06F /* ViewController.swift in Sources */,
+				CEA2FFB31FA5F19900DE6CF4 /* UIWindowExtension.swift in Sources */,
+				CE97171A1FA5F45100889CCC /* DebugScreenInfoViewController.swift in Sources */,
+				CEA2FFB11FA5F11A00DE6CF4 /* DebugWindow.swift in Sources */,
+				CE934EEF1FA5D47A004332FB /* Constant.swift in Sources */,
+				CEA2FFAD1FA5DC7D00DE6CF4 /* DebugScreenSizeViewController.swift in Sources */,
+				CE934EEB1FA5CE99004332FB /* DebugTableViewController.swift in Sources */,
 				CEC137AA1E85757900F6F06F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +338,7 @@
 				CEC137BA1E85757900F6F06F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
